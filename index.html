@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <div class="display">
+            <div class="expression" id="expression"></div>
+            <div class="result" id="display">0</div>
+        </div>
+        <div class="buttons-grid">
+
+            <button class="btn btn-top-row" onclick="clearDisplay()">AC</button>
+            <button class="btn btn-top-row" onclick="appendInput('(')">(</button>
+            <button class="btn btn-top-row" onclick="appendInput(')')">)</button>
+            <button class="btn btn-operator" onclick="appendInput('/')">÷</button>
+
+            <button class="btn" onclick="appendInput('7')">7</button>
+            <button class="btn" onclick="appendInput('8')">8</button>
+            <button class="btn" onclick="appendInput('9')">9</button>
+            <button class="btn btn-operator" onclick="appendInput('*')">×</button>
+
+         
+            <button class="btn" onclick="appendInput('4')">4</button>
+            <button class="btn" onclick="appendInput('5')">5</button>
+            <button class="btn" onclick="appendInput('6')">6</button>
+            <button class="btn btn-operator" onclick="appendInput('-')">-</button>
+
+            <button class="btn" onclick="appendInput('1')">1</button>
+            <button class="btn" onclick="appendInput('2')">2</button>
+            <button class="btn" onclick="appendInput('3')">3</button>
+            <button class="btn btn-operator" onclick="appendInput('+')">+</button>
+
+    
+            <button class="btn btn-top-row" onclick="deleteLast()">&lt;</button>
+            <button class="btn" onclick="appendInput('0')">0</button>
+            <button class="btn" onclick="appendInput('.')">.</button>
+            <button class="btn btn-equals" onclick="calculateResult()">=</button>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
