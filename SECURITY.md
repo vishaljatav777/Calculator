@@ -2,20 +2,37 @@
 
 ## Supported Versions
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+The following versions of Calculator are currently maintained with security updates:
 
 | Version | Supported          |
 | ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
+| 2.x     | :white_check_mark: |
+| 1.5.x   | :white_check_mark: |
+| 1.0.x   | :x:                |
+| < 1.0   | :x:                |
 
 ## Reporting a Vulnerability
 
-Use this section to tell people how to report a vulnerability.
+We take security vulnerabilities seriously. If you discover a security vulnerability, please follow these steps:
 
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
+### How to Report
+
+1. **Do not open a public issue** on GitHub. Public disclosure can compromise security.
+2. **Email us directly** at [security@example.com](mailto:security@example.com) with:
+   - A clear description of the vulnerability
+   - Steps to reproduce the issue
+   - Potential impact and severity
+   - Your name and contact information (optional but appreciated for follow-up)
+
+### What to Expect
+
+- **Initial Response**: We will acknowledge receipt of your report within 2 business days
+- **Assessment**: We will investigate and determine the severity and scope of the vulnerability
+- **Timeline**: Security fixes will be released as soon as possible, typically within 30 days for critical vulnerabilities
+- **Credit**: Once the issue is fixed, we may acknowledge your contribution if you wish
+
+### Security Contact
+
+For security concerns, please reach out to the maintainers directly rather than using public issue trackers.
+
+Thank you for helping keep Calculator secure!
